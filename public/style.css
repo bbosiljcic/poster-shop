@@ -5,7 +5,7 @@ button:focus, input:focus {
 }
 
 .btn {
-    background-color: #108bea;
+    background-color: #07629e;
     border-radius: 2px;
     color: white;
     user-select: none;
@@ -15,7 +15,7 @@ button:focus, input:focus {
 }
 
 .btn:hover {
-    background-color: #0f6cb2;
+    background-color: #07629e69;
 }
 
 .btn:active {
@@ -44,7 +44,7 @@ body {
 .header {
     padding: 1rem 2rem;
     flex: 0;
-    background-color: #157ed2;
+    background-color: #0969aa;
 }
 
 .main {
@@ -365,4 +365,26 @@ body {
     #product-list-bottom > div {
         display: none;
     }
+}
+
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    transition: opacity 0.3s;
+}
+
+[v-cloak] > * {
+    display: none;
+}
+
+[v-cloak] > #loading{
+    padding: 20px;
+    display: block;
+}
+
+#loading {
+    display: none;
 }
